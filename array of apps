@@ -1,0 +1,10 @@
+import 'dart:convert';
+void main() { 
+   var arr = ['2019-Naked insurance','2020-EasyEquities','2017 shyft','2018 khulo']; 
+   print(arr.first);
+   print(arr.last);
+   print(arr.middle);
+   print(arr.length);
+   print(arr.sum)
+   
+}
