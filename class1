@@ -1,0 +1,20 @@
+void main(){
+Application p1 = Application();
+p1.setData('Swift',2017);
+p1.showData();
+}
+class app{
+  String? name;
+  String? developer;
+  int? year;
+
+  void setData(String n,String c, int a){
+    name = n;
+    year = a;
+  }
+  void showData(){
+    print('Name of app=$name');
+    print('Name developer=$developer');
+    print('Year won =$year');
+  }
+}
